@@ -45,7 +45,7 @@ struct SettingsView: View {
             .padding([.horizontal, .top])
             
             HStack(spacing: 16) {
-                ShareLink(item: URL(string: "https://apps.apple.com/us/app/light-speedometer/id")!) {
+                ShareLink(item: URL(string: "https://apps.apple.com/us/app/messenger-tool-whatsapp-web/id6737196208")!) {
                     Image("tell_a_friend")
                         .resizable()
                         .frame(maxWidth: .infinity, maxHeight: 110)
@@ -64,13 +64,13 @@ struct SettingsView: View {
             Spacer()
         }
         .sheet(isPresented: $sheetFeedback) {
-            AppDataViewer(url: URL(string: "https://google.com")!)
+            AppDataViewer(url: URL(string: "https://forms.gle/iqi2ZpTfrb4VTp7x8")!)
         }
         .sheet(isPresented: $sheetTermsOfUse) {
-            AppDataViewer(url: URL(string: "https://yandex.com")!)
+            AppDataViewer(url: URL(string: "https://docs.google.com/document/d/171akTBxGW2lWdm83-PCRcukjuJiT0yWENct_9O9WoOE")!)
         }
         .sheet(isPresented: $sheetPrivacyPolicy) {
-            AppDataViewer(url: URL(string: "https://mail.ru")!)
+            AppDataViewer(url: URL(string: "https://docs.google.com/document/d/13m8cdNcsJ5a07l4UH8-Kay7vZz1BqU2eXyctPrBNPIQ")!)
         }
     }
 }
