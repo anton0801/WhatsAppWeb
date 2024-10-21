@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Aboreto-Regular.ttf</string>
+		<string>Afacad-VariableFont_wght.ttf</string>
+		<string>Agbalumo-Regular.ttf</string>
+		<string>Akshar-VariableFont_wght.ttf</string>
+		<string>Andika-Regular.ttf</string>
+		<string>Asset-Regular.ttf</string>
+		<string>Jersey10-Regular.ttf</string>
+		<string>SeymourOne-Regular.ttf</string>
+		<string>TacOne-Regular.ttf</string>
+		<string>YanoneKaffeesatz-VariableFont_wght.ttf</string>
+		<string>Zain-Regular.ttf</string>
+	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Let access microphone to convert audio to text</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Let access speech recognition to convert audio to text</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Let access the camera to this app for scan qr codes</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to select a photo.</string>
+</dict>
+</plist>
